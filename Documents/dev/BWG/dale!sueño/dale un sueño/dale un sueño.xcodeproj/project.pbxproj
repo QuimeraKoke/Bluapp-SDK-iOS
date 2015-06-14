@@ -11,7 +11,6 @@
 		CF0939451B2C6E7300ED2FF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0939441B2C6E7300ED2FF4 /* AppDelegate.m */; };
 		CF0939481B2C6E7300ED2FF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0939471B2C6E7300ED2FF4 /* ViewController.m */; };
 		CF09394B1B2C6E7300ED2FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0939491B2C6E7300ED2FF4 /* Main.storyboard */; };
-		CF09394D1B2C6E7300ED2FF4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = CF09394C1B2C6E7300ED2FF4 /* Contents.json */; };
 		CF0939501B2C6E7300ED2FF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF09394E1B2C6E7300ED2FF4 /* LaunchScreen.xib */; };
 		CF09395C1B2C6E7300ED2FF4 /* dale_un_suen_oTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09395B1B2C6E7300ED2FF4 /* dale_un_suen_oTests.m */; };
 		CF0939681B2C70CF00ED2FF4 /* izqCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0939671B2C70CF00ED2FF4 /* izqCell.m */; };
@@ -21,13 +20,7 @@
 		CF0939761B2C804700ED2FF4 /* ContactoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0939751B2C804700ED2FF4 /* ContactoViewController.m */; };
 		CF85DB241B2C8ADB0010463F /* 512 x 5112 px-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB231B2C8ADB0010463F /* 512 x 5112 px-01.png */; };
 		CF85DB2A1B2C8FB50010463F /* Logo FNH fondo blanco 2-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB291B2C8FB50010463F /* Logo FNH fondo blanco 2-2.png */; };
-		CF85DB2C1B2C94E80010463F /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB2B1B2C94E80010463F /* Icon-72@2x.png */; };
-		CF85DB341B2C95860010463F /* cara1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB2E1B2C95860010463F /* cara1.png */; };
-		CF85DB351B2C95860010463F /* cara2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB2F1B2C95860010463F /* cara2.png */; };
-		CF85DB361B2C95860010463F /* cara3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB301B2C95860010463F /* cara3.png */; };
-		CF85DB371B2C95860010463F /* cara4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB311B2C95860010463F /* cara4.png */; };
-		CF85DB381B2C95860010463F /* cara5.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB321B2C95860010463F /* cara5.png */; };
-		CF85DB391B2C95860010463F /* cara6.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB331B2C95860010463F /* cara6.png */; };
+		CF85DB2C1B2C94E80010463F /* flecha.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB2B1B2C94E80010463F /* flecha.png */; };
 		CF85DB3C1B2C95A10010463F /* enviar-un-mail-boton-celeste.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB3A1B2C95A10010463F /* enviar-un-mail-boton-celeste.png */; };
 		CF85DB3D1B2C95A10010463F /* llamar-ahora-naranjo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB3B1B2C95A10010463F /* llamar-ahora-naranjo.png */; };
 		CF85DB401B2C98090010463F /* contacto-texto.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB3E1B2C98090010463F /* contacto-texto.png */; };
@@ -50,6 +43,24 @@
 		CF85DB871B2CE8EE0010463F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB861B2CE8EE0010463F /* Images.xcassets */; };
 		CF85DB891B2CEEAA0010463F /* mockup_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB881B2CEEAA0010463F /* mockup_img_1.png */; };
 		CF85DB8B1B2D06810010463F /* raul-texto.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB8A1B2D06810010463F /* raul-texto.png */; };
+		CF85DB9F1B2DDBB30010463F /* 01_francisco.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB8D1B2DDBB30010463F /* 01_francisco.png */; };
+		CF85DBA01B2DDBB30010463F /* 02_camila.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB8E1B2DDBB30010463F /* 02_camila.png */; };
+		CF85DBA11B2DDBB30010463F /* 02_julian.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB8F1B2DDBB30010463F /* 02_julian.png */; };
+		CF85DBA21B2DDBB30010463F /* 03_nicolas.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB901B2DDBB30010463F /* 03_nicolas.png */; };
+		CF85DBA31B2DDBB30010463F /* 04_cristian.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB911B2DDBB30010463F /* 04_cristian.png */; };
+		CF85DBA41B2DDBB30010463F /* 05_jose.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB921B2DDBB30010463F /* 05_jose.png */; };
+		CF85DBA51B2DDBB30010463F /* 06_isaias.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB931B2DDBB30010463F /* 06_isaias.png */; };
+		CF85DBA61B2DDBB30010463F /* 07_valentina.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB941B2DDBB30010463F /* 07_valentina.png */; };
+		CF85DBA71B2DDBB30010463F /* 08_nicolas.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB951B2DDBB30010463F /* 08_nicolas.png */; };
+		CF85DBA81B2DDBB30010463F /* 09_tomas.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB961B2DDBB30010463F /* 09_tomas.png */; };
+		CF85DBA91B2DDBB30010463F /* 10_cris.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB971B2DDBB30010463F /* 10_cris.png */; };
+		CF85DBAA1B2DDBB30010463F /* 11_george.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB981B2DDBB30010463F /* 11_george.png */; };
+		CF85DBAB1B2DDBB30010463F /* 12_emilia.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB991B2DDBB30010463F /* 12_emilia.png */; };
+		CF85DBAC1B2DDBB30010463F /* 13_bastian.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB9A1B2DDBB30010463F /* 13_bastian.png */; };
+		CF85DBAD1B2DDBB30010463F /* 14_jaime.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB9B1B2DDBB30010463F /* 14_jaime.png */; };
+		CF85DBAE1B2DDBB30010463F /* 15_leaadro.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB9C1B2DDBB30010463F /* 15_leaadro.png */; };
+		CF85DBAF1B2DDBB30010463F /* 16_isidora.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB9D1B2DDBB30010463F /* 16_isidora.png */; };
+		CF85DBB01B2DDBB30010463F /* princess.png in Resources */ = {isa = PBXBuildFile; fileRef = CF85DB9E1B2DDBB30010463F /* princess.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +82,6 @@
 		CF0939461B2C6E7300ED2FF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CF0939471B2C6E7300ED2FF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CF09394A1B2C6E7300ED2FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF09394C1B2C6E7300ED2FF4 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = "/Users/Quimera_Koke/Documents/dev/BWG/dale!sueño/dale un sueño/dale un sueño/AppIcon.appiconset/Contents.json"; sourceTree = "<absolute>"; };
 		CF09394F1B2C6E7300ED2FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CF0939551B2C6E7300ED2FF4 /* dale un sueñoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dale un sueñoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF09395A1B2C6E7300ED2FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,13 +98,7 @@
 		CF0939751B2C804700ED2FF4 /* ContactoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactoViewController.m; sourceTree = "<group>"; };
 		CF85DB231B2C8ADB0010463F /* 512 x 5112 px-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512 x 5112 px-01.png"; sourceTree = "<group>"; };
 		CF85DB291B2C8FB50010463F /* Logo FNH fondo blanco 2-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo FNH fondo blanco 2-2.png"; sourceTree = "<group>"; };
-		CF85DB2B1B2C94E80010463F /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
-		CF85DB2E1B2C95860010463F /* cara1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cara1.png; sourceTree = "<group>"; };
-		CF85DB2F1B2C95860010463F /* cara2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cara2.png; sourceTree = "<group>"; };
-		CF85DB301B2C95860010463F /* cara3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cara3.png; sourceTree = "<group>"; };
-		CF85DB311B2C95860010463F /* cara4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cara4.png; sourceTree = "<group>"; };
-		CF85DB321B2C95860010463F /* cara5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cara5.png; sourceTree = "<group>"; };
-		CF85DB331B2C95860010463F /* cara6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cara6.png; sourceTree = "<group>"; };
+		CF85DB2B1B2C94E80010463F /* flecha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha.png; sourceTree = "<group>"; };
 		CF85DB3A1B2C95A10010463F /* enviar-un-mail-boton-celeste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enviar-un-mail-boton-celeste.png"; sourceTree = "<group>"; };
 		CF85DB3B1B2C95A10010463F /* llamar-ahora-naranjo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "llamar-ahora-naranjo.png"; sourceTree = "<group>"; };
 		CF85DB3E1B2C98090010463F /* contacto-texto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "contacto-texto.png"; path = "pantalla 2/contacto-texto.png"; sourceTree = "<group>"; };
@@ -120,6 +124,24 @@
 		CF85DB861B2CE8EE0010463F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF85DB881B2CEEAA0010463F /* mockup_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup_img_1.png; sourceTree = "<group>"; };
 		CF85DB8A1B2D06810010463F /* raul-texto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raul-texto.png"; sourceTree = "<group>"; };
+		CF85DB8D1B2DDBB30010463F /* 01_francisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01_francisco.png; sourceTree = "<group>"; };
+		CF85DB8E1B2DDBB30010463F /* 02_camila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02_camila.png; sourceTree = "<group>"; };
+		CF85DB8F1B2DDBB30010463F /* 02_julian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02_julian.png; sourceTree = "<group>"; };
+		CF85DB901B2DDBB30010463F /* 03_nicolas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03_nicolas.png; sourceTree = "<group>"; };
+		CF85DB911B2DDBB30010463F /* 04_cristian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04_cristian.png; sourceTree = "<group>"; };
+		CF85DB921B2DDBB30010463F /* 05_jose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05_jose.png; sourceTree = "<group>"; };
+		CF85DB931B2DDBB30010463F /* 06_isaias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06_isaias.png; sourceTree = "<group>"; };
+		CF85DB941B2DDBB30010463F /* 07_valentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_valentina.png; sourceTree = "<group>"; };
+		CF85DB951B2DDBB30010463F /* 08_nicolas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_nicolas.png; sourceTree = "<group>"; };
+		CF85DB961B2DDBB30010463F /* 09_tomas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09_tomas.png; sourceTree = "<group>"; };
+		CF85DB971B2DDBB30010463F /* 10_cris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_cris.png; sourceTree = "<group>"; };
+		CF85DB981B2DDBB30010463F /* 11_george.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_george.png; sourceTree = "<group>"; };
+		CF85DB991B2DDBB30010463F /* 12_emilia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12_emilia.png; sourceTree = "<group>"; };
+		CF85DB9A1B2DDBB30010463F /* 13_bastian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13_bastian.png; sourceTree = "<group>"; };
+		CF85DB9B1B2DDBB30010463F /* 14_jaime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14_jaime.png; sourceTree = "<group>"; };
+		CF85DB9C1B2DDBB30010463F /* 15_leaadro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15_leaadro.png; sourceTree = "<group>"; };
+		CF85DB9D1B2DDBB30010463F /* 16_isidora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16_isidora.png; sourceTree = "<group>"; };
+		CF85DB9E1B2DDBB30010463F /* princess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = princess.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +188,6 @@
 				CF0939431B2C6E7200ED2FF4 /* AppDelegate.h */,
 				CF0939441B2C6E7300ED2FF4 /* AppDelegate.m */,
 				CF0939491B2C6E7300ED2FF4 /* Main.storyboard */,
-				CF09394C1B2C6E7300ED2FF4 /* Contents.json */,
 				CF09394E1B2C6E7300ED2FF4 /* LaunchScreen.xib */,
 				CF85DB7C1B2CDACD0010463F /* Images-2.xcassets */,
 				CF85DB861B2CE8EE0010463F /* Images.xcassets */,
@@ -233,6 +254,7 @@
 		CF0939701B2C78CD00ED2FF4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CF85DB8C1B2DDBB30010463F /* niños */,
 				CF85DB8A1B2D06810010463F /* raul-texto.png */,
 				CF85DB881B2CEEAA0010463F /* mockup_img_1.png */,
 				CF85DB681B2CD9D70010463F /* Icon-40.png */,
@@ -249,8 +271,7 @@
 				CF85DB461B2CB2500010463F /* linea azul y roja.png */,
 				CF85DB471B2CB2500010463F /* naranjo y rojo.png */,
 				CF85DB801B2CE2960010463F /* dale-un-sueño-boton.png */,
-				CF85DB2D1B2C95860010463F /* pantalla 2 */,
-				CF85DB2B1B2C94E80010463F /* Icon-72@2x.png */,
+				CF85DB2B1B2C94E80010463F /* flecha.png */,
 				CF85DB3E1B2C98090010463F /* contacto-texto.png */,
 				CF85DB291B2C8FB50010463F /* Logo FNH fondo blanco 2-2.png */,
 				CF85DB231B2C8ADB0010463F /* 512 x 5112 px-01.png */,
@@ -260,17 +281,29 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		CF85DB2D1B2C95860010463F /* pantalla 2 */ = {
+		CF85DB8C1B2DDBB30010463F /* niños */ = {
 			isa = PBXGroup;
 			children = (
-				CF85DB2E1B2C95860010463F /* cara1.png */,
-				CF85DB2F1B2C95860010463F /* cara2.png */,
-				CF85DB301B2C95860010463F /* cara3.png */,
-				CF85DB311B2C95860010463F /* cara4.png */,
-				CF85DB321B2C95860010463F /* cara5.png */,
-				CF85DB331B2C95860010463F /* cara6.png */,
+				CF85DB8D1B2DDBB30010463F /* 01_francisco.png */,
+				CF85DB8E1B2DDBB30010463F /* 02_camila.png */,
+				CF85DB8F1B2DDBB30010463F /* 02_julian.png */,
+				CF85DB901B2DDBB30010463F /* 03_nicolas.png */,
+				CF85DB911B2DDBB30010463F /* 04_cristian.png */,
+				CF85DB921B2DDBB30010463F /* 05_jose.png */,
+				CF85DB931B2DDBB30010463F /* 06_isaias.png */,
+				CF85DB941B2DDBB30010463F /* 07_valentina.png */,
+				CF85DB951B2DDBB30010463F /* 08_nicolas.png */,
+				CF85DB961B2DDBB30010463F /* 09_tomas.png */,
+				CF85DB971B2DDBB30010463F /* 10_cris.png */,
+				CF85DB981B2DDBB30010463F /* 11_george.png */,
+				CF85DB991B2DDBB30010463F /* 12_emilia.png */,
+				CF85DB9A1B2DDBB30010463F /* 13_bastian.png */,
+				CF85DB9B1B2DDBB30010463F /* 14_jaime.png */,
+				CF85DB9C1B2DDBB30010463F /* 15_leaadro.png */,
+				CF85DB9D1B2DDBB30010463F /* 16_isidora.png */,
+				CF85DB9E1B2DDBB30010463F /* princess.png */,
 			);
-			path = "pantalla 2";
+			path = "niños";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +358,7 @@
 					};
 					CF0939541B2C6E7300ED2FF4 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TM75J75SA9;
 						TestTargetID = CF09393B1B2C6E7200ED2FF4;
 					};
 				};
@@ -352,37 +386,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF85DBA01B2DDBB30010463F /* 02_camila.png in Resources */,
 				CF85DB891B2CEEAA0010463F /* mockup_img_1.png in Resources */,
+				CF85DBA31B2DDBB30010463F /* 04_cristian.png in Resources */,
+				CF85DBA81B2DDBB30010463F /* 09_tomas.png in Resources */,
 				CF09394B1B2C6E7300ED2FF4 /* Main.storyboard in Resources */,
 				CF85DB771B2CD9D70010463F /* Icon-76.png in Resources */,
 				CF85DB761B2CD9D70010463F /* Icon-60@3x.png in Resources */,
-				CF85DB391B2C95860010463F /* cara6.png in Resources */,
+				CF85DBA11B2DDBB30010463F /* 02_julian.png in Resources */,
 				CF85DB3D1B2C95A10010463F /* llamar-ahora-naranjo.png in Resources */,
 				CF85DB8B1B2D06810010463F /* raul-texto.png in Resources */,
+				CF85DBB01B2DDBB30010463F /* princess.png in Resources */,
 				CF85DB2A1B2C8FB50010463F /* Logo FNH fondo blanco 2-2.png in Resources */,
-				CF85DB2C1B2C94E80010463F /* Icon-72@2x.png in Resources */,
+				CF85DBA91B2DDBB30010463F /* 10_cris.png in Resources */,
+				CF85DB2C1B2C94E80010463F /* flecha.png in Resources */,
 				CF85DB791B2CD9D70010463F /* Icon-Small.png in Resources */,
-				CF85DB341B2C95860010463F /* cara1.png in Resources */,
+				CF85DB9F1B2DDBB30010463F /* 01_francisco.png in Resources */,
+				CF85DBAD1B2DDBB30010463F /* 14_jaime.png in Resources */,
 				CF85DB451B2CA82E0010463F /* logodaleporun sueño.png in Resources */,
+				CF85DBAB1B2DDBB30010463F /* 12_emilia.png in Resources */,
 				CF85DB781B2CD9D70010463F /* Icon-76@2x.png in Resources */,
 				CF0939501B2C6E7300ED2FF4 /* LaunchScreen.xib in Resources */,
+				CF85DBAE1B2DDBB30010463F /* 15_leaadro.png in Resources */,
 				CF85DB401B2C98090010463F /* contacto-texto.png in Resources */,
-				CF85DB351B2C95860010463F /* cara2.png in Resources */,
 				CF85DB871B2CE8EE0010463F /* Images.xcassets in Resources */,
-				CF85DB381B2C95860010463F /* cara5.png in Resources */,
 				CF85DB491B2CB2500010463F /* naranjo y rojo.png in Resources */,
+				CF85DBAC1B2DDBB30010463F /* 13_bastian.png in Resources */,
+				CF85DBA51B2DDBB30010463F /* 06_isaias.png in Resources */,
+				CF85DBA41B2DDBB30010463F /* 05_jose.png in Resources */,
+				CF85DBA61B2DDBB30010463F /* 07_valentina.png in Resources */,
+				CF85DBAA1B2DDBB30010463F /* 11_george.png in Resources */,
+				CF85DBA71B2DDBB30010463F /* 08_nicolas.png in Resources */,
 				CF85DB7B1B2CD9D70010463F /* Icon-Small@3x.png in Resources */,
 				CF85DB481B2CB2500010463F /* linea azul y roja.png in Resources */,
 				CF85DB731B2CD9D70010463F /* Icon-40@2x.png in Resources */,
 				CF85DB241B2C8ADB0010463F /* 512 x 5112 px-01.png in Resources */,
-				CF85DB371B2C95860010463F /* cara4.png in Resources */,
 				CF85DB7D1B2CDACD0010463F /* Images-2.xcassets in Resources */,
 				CF85DB721B2CD9D70010463F /* Icon-40.png in Resources */,
+				CF85DBA21B2DDBB30010463F /* 03_nicolas.png in Resources */,
 				CF85DB7A1B2CD9D70010463F /* Icon-Small@2x.png in Resources */,
 				CF85DB741B2CD9D70010463F /* Icon-40@3x.png in Resources */,
 				CF85DB811B2CE2960010463F /* dale-un-sueño-boton.png in Resources */,
-				CF85DB361B2C95860010463F /* cara3.png in Resources */,
-				CF09394D1B2C6E7300ED2FF4 /* Contents.json in Resources */,
+				CF85DBAF1B2DDBB30010463F /* 16_isidora.png in Resources */,
 				CF85DB3C1B2C95A10010463F /* enviar-un-mail-boton-celeste.png in Resources */,
 				CF85DB751B2CD9D70010463F /* Icon-60@2x.png in Resources */,
 			);
@@ -562,6 +607,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -573,6 +620,7 @@
 				INFOPLIST_FILE = "dale un sueñoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dale un sueño.app/dale un sueño";
 			};
 			name = Debug;
@@ -581,6 +629,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -588,6 +638,7 @@
 				INFOPLIST_FILE = "dale un sueñoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dale un sueño.app/dale un sueño";
 			};
 			name = Release;

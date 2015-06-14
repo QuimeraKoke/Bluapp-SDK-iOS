@@ -21,6 +21,8 @@
     self.descripcion.layer.borderWidth = 0.5f;
     self.descripcion.layer.borderColor = [[self colorWithHexString:@"F9A10B"] CGColor];
     self.descripcion.layer.cornerRadius = 5.0f;
+    [self.descripcion setFont:[UIFont systemFontOfSize:17]];
+    [self.descripcion sizeToFit];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,7 +30,7 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)viewWillAppear:(BOOL)animated{
-    self.name.text=[self.child full_name];
+    self.name.text=[[self.child full_name] uppercaseString];
     self.dream.text=[self.child dream];
     self.descripcion.text=[self.child data];
     self.avatar.image=[UIImage imageNamed:[self.child imglink]];

@@ -35,14 +35,14 @@
 */
 
 - (IBAction)call:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:+562224805960"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:+56961550866"]];
 }
 
 - (IBAction)showEmail:(id)sender {
 // Email Subject
-NSString *emailTitle =[self.childo dream];
+NSString *emailTitle =[NSString stringWithFormat:@"dale! un sueño a %@",[self.childo full_name]];
 // Email Content
-NSString *messageBody = @"";
+NSString *messageBody =@"";
 // To address
 NSArray *toRecipents = [NSArray arrayWithObject:@"rarrazola@fnh.cl"];
 
