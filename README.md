@@ -1,1 +1,1 @@
-# dale-un-sue-o
+# iOS SDK Bluapp
