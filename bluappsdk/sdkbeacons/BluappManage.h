@@ -26,7 +26,7 @@
     int logy;
     NSMutableDictionary *lastenter;
     NSMutableDictionary *lastexit;
-    NSMutableArray *lastInfo;
+    NSMutableArray *beaconsInfo;
 }
 
 - (void)startWithCustomer:(NSMutableArray*) range;

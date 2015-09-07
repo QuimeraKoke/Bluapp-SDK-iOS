@@ -184,7 +184,7 @@ bool DEBUG_MODE = false;
 
 - (void)next {
     if ([queue count] > 0) {
-        [self showPushAlert];
+//        [self showPushAlert];
     } else {
         master = nil;
     }
@@ -561,10 +561,17 @@ bool DEBUG_MODE = false;
     NSLog(@"SEND %@", data);
     
     BeaconData *newBeacon = [[BeaconData alloc] init];
-    newBeacon.title=[data objectAtIndex:10];
-    newBeacon.body=[data objectAtIndex:1];
+    NSMutableDictionary *temp=[data objectAtIndex:0];
+    newBeacon.title=[temp objectForKey:@"title"];
+    newBeacon.body=[temp objectForKey:@"body"];
+    newBeacon.cover=[temp objectForKey:@"cover"];
+    newBeacon.type=[temp objectForKey:@"type"];
+    newBeacon.url=[temp objectForKey:@"url"];
+    if (![[[beaconsInfo lastObject] title] isEqualToString:[newBeacon title]]) {
+        [beaconsInfo addObject:newBeacon];
+    }
     
-    newBeacon=[newBeacon init];
+    
 
     for (int idx = 0; idx < [data count];idx++) {
         NSMutableDictionary *row = [data objectAtIndex:idx];

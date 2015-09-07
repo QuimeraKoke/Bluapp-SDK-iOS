@@ -369,7 +369,8 @@
 
 + (NSString*)getURLImage
 {
-    return @"http://190.106.107.83:9100";
+    
+    return @"http://54.233.70.75/";
     //return @"http://192.168.0.2:9000";
 }
 @end
