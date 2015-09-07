@@ -184,7 +184,7 @@ bool DEBUG_MODE = false;
 
 - (void)next {
     if ([queue count] > 0) {
-//        [self showPushAlert];
+        [self showPushAlert];
     } else {
         master = nil;
     }
