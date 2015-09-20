@@ -324,7 +324,7 @@
     NSError* error;
     NSString *strData = [[NSString alloc]initWithData:_responseData encoding:NSUTF8StringEncoding];
     
-    NSMutableDictionary* json = [NSJSONSerialization JSONObjectWithData:_responseData
+    NSDictionary* json = [NSJSONSerialization JSONObjectWithData:_responseData
                                                          options:kNilOptions
                                                            error:&error];
 
@@ -369,8 +369,7 @@
 
 + (NSString*)getURLImage
 {
-    
-    return @"http://54.233.70.75/";
+    return @"http://54.233.70.75/covers";
     //return @"http://192.168.0.2:9000";
 }
 @end

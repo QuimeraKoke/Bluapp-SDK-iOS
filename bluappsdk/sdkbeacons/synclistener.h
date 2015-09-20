@@ -10,7 +10,7 @@
 
 @protocol synclistener <NSObject>
 
-- (void)finishSync:(NSMutableDictionary *)json  andoptions:(int) options;
-- (void)error:(NSMutableDictionary *)json anderror:(NSError*) error andoptions:(int) options;
+- (void)finishSync:(NSDictionary *)json  andoptions:(int) options;
+- (void)error:(NSDictionary *)json anderror:(NSError*) error andoptions:(int) options;
 
 @end 

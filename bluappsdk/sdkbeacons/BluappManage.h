@@ -26,12 +26,12 @@
     int logy;
     NSMutableDictionary *lastenter;
     NSMutableDictionary *lastexit;
-    NSMutableArray *beaconsInfo;
+    
 }
 
 - (void)startWithCustomer:(NSMutableArray*) range;
 - (void)setToken:(NSString*) t;
-- (void)reciveRemoteNotification:(NSMutableDictionary*) userInfo andshow:(BOOL) show;
+- (void)reciveRemoteNotification:(NSDictionary*) userInfo andshow:(BOOL) show;
 - (void)next;
 - (void)startWithCustomerAndDebug:(NSString*) clid anddebug:(BOOL) debug;
 

@@ -5,7 +5,7 @@
 //  Created by Manuel Luque on 27/1/15.
 //  Copyright (c) 2015 Manuel Luque. All rights reserved.
 //
-#import "BeaconData.h"
+
 #import <CommonCrypto/CommonDigest.h>
 #import "BluappManage.h"
 #import "HTTPCaller.h"
@@ -91,7 +91,7 @@ bool DEBUG_MODE = false;
 }
 
 
-- (void)finishSync:(NSMutableDictionary *)json  andoptions:(int) options {
+- (void)finishSync:(NSDictionary *)json  andoptions:(int) options {
     
     if ([caller hasError:json] == false) {
         if (options == GETUUIDS) {
@@ -163,7 +163,7 @@ bool DEBUG_MODE = false;
     }
 }
 
-- (void)error:(NSMutableDictionary *)json anderror:(NSError*) error andoptions:(int) options {
+- (void)error:(NSDictionary *)json anderror:(NSError*) error andoptions:(int) options {
     if (options == GETUUIDS) {
         beaconrange = [self deSerializeResponse];
         [self activateInspect];
@@ -289,7 +289,7 @@ bool DEBUG_MODE = false;
     [self printLog:[NSString stringWithFormat:@"PUSH TOKEY  %@", token]];
 }
 
--(void)reciveRemoteNotification:(NSMutableDictionary*) userInfo andshow:(BOOL) show {
+-(void)reciveRemoteNotification:(NSDictionary*) userInfo andshow:(BOOL) show {
 
     NSMutableDictionary *info = [userInfo objectForKey:@"userInfo"];
     int *idcamp = [[[info valueForKey:@"extras"] valueForKey:@"idcampaings"] integerValue];
@@ -315,7 +315,7 @@ bool DEBUG_MODE = false;
     NSMutableDictionary *userInfo = [data objectForKey:@"userInfo"];
     
     NSBundle *bundle = [NSBundle mainBundle];
-    NSMutableDictionary *info = [bundle infoDictionary];
+    NSDictionary *info = [bundle infoDictionary];
     NSString *prodName = [info objectForKey:@"CFBundleDisplayName"];
     
     if ([[data objectForKey:@"show"] boolValue]) {
@@ -356,7 +356,7 @@ bool DEBUG_MODE = false;
 
 - (void) locationManager:(CLLocationManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(CLBeaconRegion *)region
 {
-    //NSLog(@"RANGE HAS %i", [beacons count]);
+    NSLog(@"RANGE HAS %i", [beacons count]);
     //[self printLog:[NSString stringWithFormat:@"RANGE HAS %i", [beacons count]]];
 
 
@@ -454,7 +454,6 @@ bool DEBUG_MODE = false;
 
 - (void)exitRange:(NSString*) b andorder:(int) idx andmajor:(int) major andminor:(int) minor {
     HTTPCaller *mycaller = [HTTPCaller alloc];
-    
     int seed = (idx+1)*1000;
     NSLog(@"EXIT");
     [self printLog:[NSString stringWithFormat:@"exit %@", b]];
@@ -559,19 +558,6 @@ bool DEBUG_MODE = false;
 
 - (void)sendNotification:(NSMutableArray*) data andenter:(BOOL) enter {
     NSLog(@"SEND %@", data);
-    
-    BeaconData *newBeacon = [[BeaconData alloc] init];
-    NSMutableDictionary *temp=[data objectAtIndex:0];
-    newBeacon.title=[temp objectForKey:@"title"];
-    newBeacon.body=[temp objectForKey:@"body"];
-    newBeacon.cover=[temp objectForKey:@"cover"];
-    newBeacon.type=[temp objectForKey:@"type"];
-    newBeacon.url=[temp objectForKey:@"url"];
-    if (![[[beaconsInfo lastObject] title] isEqualToString:[newBeacon title]]) {
-        [beaconsInfo addObject:newBeacon];
-    }
-    
-    
 
     for (int idx = 0; idx < [data count];idx++) {
         NSMutableDictionary *row = [data objectAtIndex:idx];

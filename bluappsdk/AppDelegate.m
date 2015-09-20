@@ -30,7 +30,7 @@
     [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
     */
     bluapp= [BluappManage alloc];
-    [bluapp startWithCustomerAndDebug:@"charles@falabella.cl" anddebug:TRUE];
+    [bluapp startWithCustomerAndDebug:@"celebrity@bluapp.cl" anddebug:TRUE];
 
     NSUUID *oNSUUID = [[UIDevice currentDevice] identifierForVendor];
     [bluapp setToken:[oNSUUID UUIDString]];
@@ -108,8 +108,9 @@
     
     if (newString == nil)
         newString = @"";
-    NSUUID *oNSUUID = [[UIDevice currentDevice] identifierForVendor];
-    [bluapp setToken:[oNSUUID UUIDString]];
+    
+    //NSUUID *oNSUUID = [[UIDevice currentDevice] identifierForVendor];
+    //[bluapp setToken:[oNSUUID UUIDString]];
 }
 
 
