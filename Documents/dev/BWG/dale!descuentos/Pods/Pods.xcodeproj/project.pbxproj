@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59258A03A7EACA314091F61F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086FDC0F89B5B49CDD3789DC /* Foundation.framework */; };
+		B93E0202EAE581AB54B27410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086FDC0F89B5B49CDD3789DC /* Foundation.framework */; };
+		E70C8416DD1C7C2FC9E8C18D /* Pods-dale!descuentos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA89A8B7B5A4E4E20B3B83A9 /* Pods-dale!descuentos-dummy.m */; };
+		EED1FA5715C680EC1523D2CB /* Pods-dale!descuentosTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA855DFDEA9AAD18A296DC9 /* Pods-dale!descuentosTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05C8192D0CA9354FAE017961 /* KTKFirmware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKFirmware.h; path = KontaktSDK/Headers/KTKFirmware.h; sourceTree = "<group>"; };
+		070A073E8CCE6EA962770966 /* KTKPagingConfigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPagingConfigs.h; path = KontaktSDK/Headers/KTKPagingConfigs.h; sourceTree = "<group>"; };
+		086FDC0F89B5B49CDD3789DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0F1D98DABB56818BA17A76D1 /* KTKPagingVenues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPagingVenues.h; path = KontaktSDK/Headers/KTKPagingVenues.h; sourceTree = "<group>"; };
+		1487840014297F7CA88A66E0 /* KontaktSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KontaktSDK.h; path = KontaktSDK/Headers/KontaktSDK.h; sourceTree = "<group>"; };
+		15212031C38A8DBD59A265C0 /* Pods-dale!descuentosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dale!descuentosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17F475E226C0E365FDF9E8AE /* Pods-dale!descuentos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dale!descuentos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		196B486EFF89C249FA23508A /* KTKDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKDescriptor.h; path = KontaktSDK/Headers/KTKDescriptor.h; sourceTree = "<group>"; };
+		1A912E1B8DCD0BEDE883D6B0 /* Pods-dale!descuentosTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dale!descuentosTests-environment.h"; sourceTree = "<group>"; };
+		1B5AF25FA88EC56403222111 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B7633D6DD539CA7CFE531C9 /* Pods-dale!descuentos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dale!descuentos-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C1C249C634B88BDCFC41EFB /* Pods-dale!descuentosTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dale!descuentosTests-resources.sh"; sourceTree = "<group>"; };
+		251CACF1629C2F7F2024BAC6 /* KTKCompany.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKCompany.h; path = KontaktSDK/Headers/KTKCompany.h; sourceTree = "<group>"; };
+		3363F0D7D406C716A3BA4705 /* KTKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKError.h; path = KontaktSDK/Headers/KTKError.h; sourceTree = "<group>"; };
+		367C6A20C886DE59A1B73B39 /* KTKPublicBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPublicBeacon.h; path = KontaktSDK/Headers/KTKPublicBeacon.h; sourceTree = "<group>"; };
+		406FDD63D00F69EB3D720DF9 /* KTKStringConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKStringConverter.h; path = KontaktSDK/Headers/KTKStringConverter.h; sourceTree = "<group>"; };
+		41D49EE261FBB225AA11C67D /* KTKUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKUser.h; path = KontaktSDK/Headers/KTKUser.h; sourceTree = "<group>"; };
+		44F588E19D66615DA47C34FD /* KTKBluetoothManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBluetoothManager.h; path = KontaktSDK/Headers/KTKBluetoothManager.h; sourceTree = "<group>"; };
+		49FB6C54F1978BF18D194CC7 /* Pods-dale!descuentosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dale!descuentosTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A2FDD6C1D32E6D0ABF07782 /* KTKCharacteristicDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKCharacteristicDescriptor.h; path = KontaktSDK/Headers/KTKCharacteristicDescriptor.h; sourceTree = "<group>"; };
+		549FC673A9C6B7A6FD3B7BF8 /* KTKLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKLocationManager.h; path = KontaktSDK/Headers/KTKLocationManager.h; sourceTree = "<group>"; };
+		60A0A52E9A829F5D25ECF11C /* KTKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKManager.h; path = KontaktSDK/Headers/KTKManager.h; sourceTree = "<group>"; };
+		61DD39A8650478F8DD55EB7A /* libkontakt-ios-sdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libkontakt-ios-sdk.a"; path = "KontaktSDK/libkontakt-ios-sdk.a"; sourceTree = "<group>"; };
+		78BD3FBCEB00700DF3DDF50D /* Pods-dale!descuentosTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dale!descuentosTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A153EA75BF36AD11BA18EC3 /* KTKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKDevice.h; path = KontaktSDK/Headers/KTKDevice.h; sourceTree = "<group>"; };
+		7BE29FE91CFA617FD5690085 /* KTKAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKAction.h; path = KontaktSDK/Headers/KTKAction.h; sourceTree = "<group>"; };
+		85E7CA3FAA0C1DE758B44BB3 /* KTKNumberDiscreteConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKNumberDiscreteConverter.h; path = KontaktSDK/Headers/KTKNumberDiscreteConverter.h; sourceTree = "<group>"; };
+		875194046A79AAF7DD17AE30 /* KTKBeaconDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeaconDevice.h; path = KontaktSDK/Headers/KTKBeaconDevice.h; sourceTree = "<group>"; };
+		877CA6C4302CA382FD4F61ED /* KTKBeaconManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeaconManager.h; path = KontaktSDK/Headers/KTKBeaconManager.h; sourceTree = "<group>"; };
+		8AAE84089C8A2856AB128F92 /* Pods-dale!descuentos-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dale!descuentos-environment.h"; sourceTree = "<group>"; };
+		97A1D0E8AFAC44BE6B19CEB7 /* libPods-dale!descuentos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dale!descuentos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFDFC207FBB1A30AF426581 /* KTKPagingBeacons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPagingBeacons.h; path = KontaktSDK/Headers/KTKPagingBeacons.h; sourceTree = "<group>"; };
+		A650B780E78895DFEDAFF481 /* KTKHexConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKHexConverter.h; path = KontaktSDK/Headers/KTKHexConverter.h; sourceTree = "<group>"; };
+		A9AF49B23D06FD1064133196 /* KTKServiceDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKServiceDescriptor.h; path = KontaktSDK/Headers/KTKServiceDescriptor.h; sourceTree = "<group>"; };
+		AF65BD1CE23F7BA6DFF56081 /* Pods-dale!descuentos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dale!descuentos-resources.sh"; sourceTree = "<group>"; };
+		B08E495251232075D2CB29D4 /* KTKRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKRegion.h; path = KontaktSDK/Headers/KTKRegion.h; sourceTree = "<group>"; };
+		B09B744611FCBF390DA63BE3 /* KTKClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKClient.h; path = KontaktSDK/Headers/KTKClient.h; sourceTree = "<group>"; };
+		B3054B87E8AF26EBCB7FD0D4 /* KTKBeaconDeviceV2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeaconDeviceV2.h; path = KontaktSDK/Headers/KTKBeaconDeviceV2.h; sourceTree = "<group>"; };
+		BBDC43E267D2135C77E9C703 /* KTKBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeacon.h; path = KontaktSDK/Headers/KTKBeacon.h; sourceTree = "<group>"; };
+		C0992C721F8DB457D52B6F1F /* Pods-dale!descuentos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dale!descuentos.release.xcconfig"; sourceTree = "<group>"; };
+		C0A1E4F309A2B821DC343249 /* KTKBluetoothDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBluetoothDevice.h; path = KontaktSDK/Headers/KTKBluetoothDevice.h; sourceTree = "<group>"; };
+		CB81780311CE1BCCCBBD51D9 /* KTKNumberConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKNumberConverter.h; path = KontaktSDK/Headers/KTKNumberConverter.h; sourceTree = "<group>"; };
+		CDEBDDD8A242BEB219129648 /* KTKBeaconProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeaconProfile.h; path = KontaktSDK/Headers/KTKBeaconProfile.h; sourceTree = "<group>"; };
+		D1B5AA5997EF90200E1AFFDB /* KTKSubordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKSubordinate.h; path = KontaktSDK/Headers/KTKSubordinate.h; sourceTree = "<group>"; };
+		D415DF8C81BE9B28E92D6974 /* KTKVenueBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKVenueBase.h; path = KontaktSDK/Headers/KTKVenueBase.h; sourceTree = "<group>"; };
+		D4CCD7011C76B12612275ED8 /* KTKPublicVenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPublicVenue.h; path = KontaktSDK/Headers/KTKPublicVenue.h; sourceTree = "<group>"; };
+		D59AE23F7609B9C99CBF12DC /* KTKConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKConverter.h; path = KontaktSDK/Headers/KTKConverter.h; sourceTree = "<group>"; };
+		D6A9AE7D679DC4A2C0574920 /* libPods-dale!descuentosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dale!descuentosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C8B9AB45F909EA7E6ACC50 /* KTKUUIDConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKUUIDConverter.h; path = KontaktSDK/Headers/KTKUUIDConverter.h; sourceTree = "<group>"; };
+		D8827E75EEF273BBA5618817 /* KTKVenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKVenue.h; path = KontaktSDK/Headers/KTKVenue.h; sourceTree = "<group>"; };
+		DA89A8B7B5A4E4E20B3B83A9 /* Pods-dale!descuentos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dale!descuentos-dummy.m"; sourceTree = "<group>"; };
+		DCA855DFDEA9AAD18A296DC9 /* Pods-dale!descuentosTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dale!descuentosTests-dummy.m"; sourceTree = "<group>"; };
+		E1F09C9318BC58E186B56359 /* Pods-dale!descuentosTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dale!descuentosTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E88580BA2D18238D3BC95298 /* Pods-dale!descuentos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dale!descuentos.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0C94D6DF1F7375D79E014B /* KTKPublicAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPublicAction.h; path = KontaktSDK/Headers/KTKPublicAction.h; sourceTree = "<group>"; };
+		F14868944B34D64F0213F5BA /* KTKDataTransferObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKDataTransferObject.h; path = KontaktSDK/Headers/KTKDataTransferObject.h; sourceTree = "<group>"; };
+		F40EE571FA86F395FCC6E814 /* KTKActionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKActionManager.h; path = KontaktSDK/Headers/KTKActionManager.h; sourceTree = "<group>"; };
+		F63AF8682037DEFE2425C26B /* KTKPagingDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPagingDevices.h; path = KontaktSDK/Headers/KTKPagingDevices.h; sourceTree = "<group>"; };
+		FAC53014E177D5A9C2294DED /* KTKPaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPaging.h; path = KontaktSDK/Headers/KTKPaging.h; sourceTree = "<group>"; };
+		FEBDF85C85E923DBB84F19BD /* KTKNumberLinearConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKNumberLinearConverter.h; path = KontaktSDK/Headers/KTKNumberLinearConverter.h; sourceTree = "<group>"; };
+		FEEFC974A5A0A91BFFC8475B /* KTKCloudBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKCloudBeacon.h; path = KontaktSDK/Headers/KTKCloudBeacon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F80EB06CDEDBBE01841638E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59258A03A7EACA314091F61F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A27C063C6A3B71AE9F3232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93E0202EAE581AB54B27410 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0772D4332DB3ADE60D494659 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				086FDC0F89B5B49CDD3789DC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		17F3749844974964413C6C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97A1D0E8AFAC44BE6B19CEB7 /* libPods-dale!descuentos.a */,
+				D6A9AE7D679DC4A2C0574920 /* libPods-dale!descuentosTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E49832E4A232DFAC96BAE6 /* Pods-dale!descuentosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1F09C9318BC58E186B56359 /* Pods-dale!descuentosTests-acknowledgements.markdown */,
+				78BD3FBCEB00700DF3DDF50D /* Pods-dale!descuentosTests-acknowledgements.plist */,
+				DCA855DFDEA9AAD18A296DC9 /* Pods-dale!descuentosTests-dummy.m */,
+				1A912E1B8DCD0BEDE883D6B0 /* Pods-dale!descuentosTests-environment.h */,
+				1C1C249C634B88BDCFC41EFB /* Pods-dale!descuentosTests-resources.sh */,
+				15212031C38A8DBD59A265C0 /* Pods-dale!descuentosTests.debug.xcconfig */,
+				49FB6C54F1978BF18D194CC7 /* Pods-dale!descuentosTests.release.xcconfig */,
+			);
+			name = "Pods-dale!descuentosTests";
+			path = "Target Support Files/Pods-dale!descuentosTests";
+			sourceTree = "<group>";
+		};
+		62367E14EA5AFEF8809D146F = {
+			isa = PBXGroup;
+			children = (
+				1B5AF25FA88EC56403222111 /* Podfile */,
+				8C5201EF880C720EF2FBFDA8 /* Frameworks */,
+				B4BBFA0EE7FE777C5E0ADC0F /* Pods */,
+				17F3749844974964413C6C00 /* Products */,
+				79BD9A840DFB96D56AAD4611 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		79BD9A840DFB96D56AAD4611 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA462A471F03F752DC56954F /* Pods-dale!descuentos */,
+				44E49832E4A232DFAC96BAE6 /* Pods-dale!descuentosTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C5201EF880C720EF2FBFDA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0772D4332DB3ADE60D494659 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AE0E4CA2104D69510AE3E2B /* KontaktSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7BE29FE91CFA617FD5690085 /* KTKAction.h */,
+				F40EE571FA86F395FCC6E814 /* KTKActionManager.h */,
+				BBDC43E267D2135C77E9C703 /* KTKBeacon.h */,
+				875194046A79AAF7DD17AE30 /* KTKBeaconDevice.h */,
+				B3054B87E8AF26EBCB7FD0D4 /* KTKBeaconDeviceV2.h */,
+				877CA6C4302CA382FD4F61ED /* KTKBeaconManager.h */,
+				CDEBDDD8A242BEB219129648 /* KTKBeaconProfile.h */,
+				C0A1E4F309A2B821DC343249 /* KTKBluetoothDevice.h */,
+				44F588E19D66615DA47C34FD /* KTKBluetoothManager.h */,
+				4A2FDD6C1D32E6D0ABF07782 /* KTKCharacteristicDescriptor.h */,
+				B09B744611FCBF390DA63BE3 /* KTKClient.h */,
+				FEEFC974A5A0A91BFFC8475B /* KTKCloudBeacon.h */,
+				251CACF1629C2F7F2024BAC6 /* KTKCompany.h */,
+				D59AE23F7609B9C99CBF12DC /* KTKConverter.h */,
+				F14868944B34D64F0213F5BA /* KTKDataTransferObject.h */,
+				196B486EFF89C249FA23508A /* KTKDescriptor.h */,
+				7A153EA75BF36AD11BA18EC3 /* KTKDevice.h */,
+				3363F0D7D406C716A3BA4705 /* KTKError.h */,
+				05C8192D0CA9354FAE017961 /* KTKFirmware.h */,
+				A650B780E78895DFEDAFF481 /* KTKHexConverter.h */,
+				549FC673A9C6B7A6FD3B7BF8 /* KTKLocationManager.h */,
+				60A0A52E9A829F5D25ECF11C /* KTKManager.h */,
+				CB81780311CE1BCCCBBD51D9 /* KTKNumberConverter.h */,
+				85E7CA3FAA0C1DE758B44BB3 /* KTKNumberDiscreteConverter.h */,
+				FEBDF85C85E923DBB84F19BD /* KTKNumberLinearConverter.h */,
+				FAC53014E177D5A9C2294DED /* KTKPaging.h */,
+				9FFDFC207FBB1A30AF426581 /* KTKPagingBeacons.h */,
+				070A073E8CCE6EA962770966 /* KTKPagingConfigs.h */,
+				F63AF8682037DEFE2425C26B /* KTKPagingDevices.h */,
+				0F1D98DABB56818BA17A76D1 /* KTKPagingVenues.h */,
+				EB0C94D6DF1F7375D79E014B /* KTKPublicAction.h */,
+				367C6A20C886DE59A1B73B39 /* KTKPublicBeacon.h */,
+				D4CCD7011C76B12612275ED8 /* KTKPublicVenue.h */,
+				B08E495251232075D2CB29D4 /* KTKRegion.h */,
+				A9AF49B23D06FD1064133196 /* KTKServiceDescriptor.h */,
+				406FDD63D00F69EB3D720DF9 /* KTKStringConverter.h */,
+				D1B5AA5997EF90200E1AFFDB /* KTKSubordinate.h */,
+				D7C8B9AB45F909EA7E6ACC50 /* KTKUUIDConverter.h */,
+				41D49EE261FBB225AA11C67D /* KTKUser.h */,
+				D8827E75EEF273BBA5618817 /* KTKVenue.h */,
+				D415DF8C81BE9B28E92D6974 /* KTKVenueBase.h */,
+				1487840014297F7CA88A66E0 /* KontaktSDK.h */,
+				D41C590BEDC814A001F0B38D /* Frameworks */,
+			);
+			path = KontaktSDK;
+			sourceTree = "<group>";
+		};
+		B4BBFA0EE7FE777C5E0ADC0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AE0E4CA2104D69510AE3E2B /* KontaktSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D41C590BEDC814A001F0B38D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61DD39A8650478F8DD55EB7A /* libkontakt-ios-sdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA462A471F03F752DC56954F /* Pods-dale!descuentos */ = {
+			isa = PBXGroup;
+			children = (
+				17F475E226C0E365FDF9E8AE /* Pods-dale!descuentos-acknowledgements.markdown */,
+				1B7633D6DD539CA7CFE531C9 /* Pods-dale!descuentos-acknowledgements.plist */,
+				DA89A8B7B5A4E4E20B3B83A9 /* Pods-dale!descuentos-dummy.m */,
+				8AAE84089C8A2856AB128F92 /* Pods-dale!descuentos-environment.h */,
+				AF65BD1CE23F7BA6DFF56081 /* Pods-dale!descuentos-resources.sh */,
+				E88580BA2D18238D3BC95298 /* Pods-dale!descuentos.debug.xcconfig */,
+				C0992C721F8DB457D52B6F1F /* Pods-dale!descuentos.release.xcconfig */,
+			);
+			name = "Pods-dale!descuentos";
+			path = "Target Support Files/Pods-dale!descuentos";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD77962CB95E43CA9D5B5E0 /* Pods-dale!descuentos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B11C1911081D7FE06D58CB1 /* Build configuration list for PBXNativeTarget "Pods-dale!descuentos" */;
+			buildPhases = (
+				1F93B3E3709A42A8B3890B0D /* Sources */,
+				81A27C063C6A3B71AE9F3232 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-dale!descuentos";
+			productName = "Pods-dale!descuentos";
+			productReference = 97A1D0E8AFAC44BE6B19CEB7 /* libPods-dale!descuentos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6692905B85D7DB11236EC8D0 /* Pods-dale!descuentosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48834C4A3DF610FBAEAD0EF4 /* Build configuration list for PBXNativeTarget "Pods-dale!descuentosTests" */;
+			buildPhases = (
+				08163A6A0173B2A283C53C6E /* Sources */,
+				1F80EB06CDEDBBE01841638E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-dale!descuentosTests";
+			productName = "Pods-dale!descuentosTests";
+			productReference = D6A9AE7D679DC4A2C0574920 /* libPods-dale!descuentosTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4839D37A399A1AE16921EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = CEB2533874C115835379F153 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62367E14EA5AFEF8809D146F;
+			productRefGroup = 17F3749844974964413C6C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD77962CB95E43CA9D5B5E0 /* Pods-dale!descuentos */,
+				6692905B85D7DB11236EC8D0 /* Pods-dale!descuentosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08163A6A0173B2A283C53C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED1FA5715C680EC1523D2CB /* Pods-dale!descuentosTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F93B3E3709A42A8B3890B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C8416DD1C7C2FC9E8C18D /* Pods-dale!descuentos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E5C28273017AC8991010477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4FDB61DB6125AAA53026BB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15212031C38A8DBD59A265C0 /* Pods-dale!descuentosTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		587286F0829E313B6CEF3799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0992C721F8DB457D52B6F1F /* Pods-dale!descuentos.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BFF635EDB0B7E44F777DFA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88580BA2D18238D3BC95298 /* Pods-dale!descuentos.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E0CD7576F4214446E42AFE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FB6C54F1978BF18D194CC7 /* Pods-dale!descuentosTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F832FC225CC7AD5F986BED2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B11C1911081D7FE06D58CB1 /* Build configuration list for PBXNativeTarget "Pods-dale!descuentos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF635EDB0B7E44F777DFA38 /* Debug */,
+				587286F0829E313B6CEF3799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48834C4A3DF610FBAEAD0EF4 /* Build configuration list for PBXNativeTarget "Pods-dale!descuentosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDB61DB6125AAA53026BB42 /* Debug */,
+				E0CD7576F4214446E42AFE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB2533874C115835379F153 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5C28273017AC8991010477 /* Debug */,
+				F832FC225CC7AD5F986BED2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4839D37A399A1AE16921EB5 /* Project object */;
+}

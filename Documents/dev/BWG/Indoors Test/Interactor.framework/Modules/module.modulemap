@@ -1,0 +1,6 @@
+framework module Interactor {
+  umbrella header "Interactor.h"
+
+  export *
+  module * { export * }
+}

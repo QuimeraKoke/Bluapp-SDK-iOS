@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, ‘7.1’
+
+target 'iBeacon Demo' do
+pod 'KontaktSDK'
+end
+
+target 'iBeacon DemoTests' do
+
+end
+

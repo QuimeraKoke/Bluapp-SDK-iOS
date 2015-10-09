@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF767A141BBC8EAD002FB2F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF767A131BBC8EAD002FB2F7 /* AppDelegate.swift */; };
+		CF767A161BBC8EAD002FB2F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF767A151BBC8EAD002FB2F7 /* ViewController.swift */; };
+		CF767A191BBC8EAD002FB2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF767A171BBC8EAD002FB2F7 /* Main.storyboard */; };
+		CF767A1B1BBC8EAD002FB2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF767A1A1BBC8EAD002FB2F7 /* Assets.xcassets */; };
+		CF767A1E1BBC8EAD002FB2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF767A1C1BBC8EAD002FB2F7 /* LaunchScreen.storyboard */; };
+		CF767A291BBC8EAD002FB2F7 /* CoUPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF767A281BBC8EAD002FB2F7 /* CoUPTests.swift */; };
+		CF767A341BBC8EAD002FB2F7 /* CoUPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF767A331BBC8EAD002FB2F7 /* CoUPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF767A251BBC8EAD002FB2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF767A081BBC8EAD002FB2F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF767A0F1BBC8EAD002FB2F7;
+			remoteInfo = CoUP;
+		};
+		CF767A301BBC8EAD002FB2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF767A081BBC8EAD002FB2F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF767A0F1BBC8EAD002FB2F7;
+			remoteInfo = CoUP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF767A101BBC8EAD002FB2F7 /* CoUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF767A131BBC8EAD002FB2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF767A151BBC8EAD002FB2F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF767A181BBC8EAD002FB2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF767A1A1BBC8EAD002FB2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF767A1D1BBC8EAD002FB2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF767A1F1BBC8EAD002FB2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF767A241BBC8EAD002FB2F7 /* CoUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoUPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF767A281BBC8EAD002FB2F7 /* CoUPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoUPTests.swift; sourceTree = "<group>"; };
+		CF767A2A1BBC8EAD002FB2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF767A2F1BBC8EAD002FB2F7 /* CoUPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoUPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF767A331BBC8EAD002FB2F7 /* CoUPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoUPUITests.swift; sourceTree = "<group>"; };
+		CF767A351BBC8EAD002FB2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF767A0D1BBC8EAD002FB2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF767A211BBC8EAD002FB2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF767A2C1BBC8EAD002FB2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF767A071BBC8EAD002FB2F7 = {
+			isa = PBXGroup;
+			children = (
+				CF767A121BBC8EAD002FB2F7 /* CoUP */,
+				CF767A271BBC8EAD002FB2F7 /* CoUPTests */,
+				CF767A321BBC8EAD002FB2F7 /* CoUPUITests */,
+				CF767A111BBC8EAD002FB2F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF767A111BBC8EAD002FB2F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF767A101BBC8EAD002FB2F7 /* CoUP.app */,
+				CF767A241BBC8EAD002FB2F7 /* CoUPTests.xctest */,
+				CF767A2F1BBC8EAD002FB2F7 /* CoUPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF767A121BBC8EAD002FB2F7 /* CoUP */ = {
+			isa = PBXGroup;
+			children = (
+				CF767A131BBC8EAD002FB2F7 /* AppDelegate.swift */,
+				CF767A151BBC8EAD002FB2F7 /* ViewController.swift */,
+				CF767A171BBC8EAD002FB2F7 /* Main.storyboard */,
+				CF767A1A1BBC8EAD002FB2F7 /* Assets.xcassets */,
+				CF767A1C1BBC8EAD002FB2F7 /* LaunchScreen.storyboard */,
+				CF767A1F1BBC8EAD002FB2F7 /* Info.plist */,
+			);
+			path = CoUP;
+			sourceTree = "<group>";
+		};
+		CF767A271BBC8EAD002FB2F7 /* CoUPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF767A281BBC8EAD002FB2F7 /* CoUPTests.swift */,
+				CF767A2A1BBC8EAD002FB2F7 /* Info.plist */,
+			);
+			path = CoUPTests;
+			sourceTree = "<group>";
+		};
+		CF767A321BBC8EAD002FB2F7 /* CoUPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF767A331BBC8EAD002FB2F7 /* CoUPUITests.swift */,
+				CF767A351BBC8EAD002FB2F7 /* Info.plist */,
+			);
+			path = CoUPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF767A0F1BBC8EAD002FB2F7 /* CoUP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF767A381BBC8EAD002FB2F7 /* Build configuration list for PBXNativeTarget "CoUP" */;
+			buildPhases = (
+				CF767A0C1BBC8EAD002FB2F7 /* Sources */,
+				CF767A0D1BBC8EAD002FB2F7 /* Frameworks */,
+				CF767A0E1BBC8EAD002FB2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoUP;
+			productName = CoUP;
+			productReference = CF767A101BBC8EAD002FB2F7 /* CoUP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF767A231BBC8EAD002FB2F7 /* CoUPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF767A3B1BBC8EAD002FB2F7 /* Build configuration list for PBXNativeTarget "CoUPTests" */;
+			buildPhases = (
+				CF767A201BBC8EAD002FB2F7 /* Sources */,
+				CF767A211BBC8EAD002FB2F7 /* Frameworks */,
+				CF767A221BBC8EAD002FB2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF767A261BBC8EAD002FB2F7 /* PBXTargetDependency */,
+			);
+			name = CoUPTests;
+			productName = CoUPTests;
+			productReference = CF767A241BBC8EAD002FB2F7 /* CoUPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF767A2E1BBC8EAD002FB2F7 /* CoUPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF767A3E1BBC8EAD002FB2F7 /* Build configuration list for PBXNativeTarget "CoUPUITests" */;
+			buildPhases = (
+				CF767A2B1BBC8EAD002FB2F7 /* Sources */,
+				CF767A2C1BBC8EAD002FB2F7 /* Frameworks */,
+				CF767A2D1BBC8EAD002FB2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF767A311BBC8EAD002FB2F7 /* PBXTargetDependency */,
+			);
+			name = CoUPUITests;
+			productName = CoUPUITests;
+			productReference = CF767A2F1BBC8EAD002FB2F7 /* CoUPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF767A081BBC8EAD002FB2F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jorge Gutiérrez";
+				TargetAttributes = {
+					CF767A0F1BBC8EAD002FB2F7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CF767A231BBC8EAD002FB2F7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CF767A0F1BBC8EAD002FB2F7;
+					};
+					CF767A2E1BBC8EAD002FB2F7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CF767A0F1BBC8EAD002FB2F7;
+					};
+				};
+			};
+			buildConfigurationList = CF767A0B1BBC8EAD002FB2F7 /* Build configuration list for PBXProject "CoUP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF767A071BBC8EAD002FB2F7;
+			productRefGroup = CF767A111BBC8EAD002FB2F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF767A0F1BBC8EAD002FB2F7 /* CoUP */,
+				CF767A231BBC8EAD002FB2F7 /* CoUPTests */,
+				CF767A2E1BBC8EAD002FB2F7 /* CoUPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF767A0E1BBC8EAD002FB2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF767A1E1BBC8EAD002FB2F7 /* LaunchScreen.storyboard in Resources */,
+				CF767A1B1BBC8EAD002FB2F7 /* Assets.xcassets in Resources */,
+				CF767A191BBC8EAD002FB2F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF767A221BBC8EAD002FB2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF767A2D1BBC8EAD002FB2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF767A0C1BBC8EAD002FB2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF767A161BBC8EAD002FB2F7 /* ViewController.swift in Sources */,
+				CF767A141BBC8EAD002FB2F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF767A201BBC8EAD002FB2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF767A291BBC8EAD002FB2F7 /* CoUPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF767A2B1BBC8EAD002FB2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF767A341BBC8EAD002FB2F7 /* CoUPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF767A261BBC8EAD002FB2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF767A0F1BBC8EAD002FB2F7 /* CoUP */;
+			targetProxy = CF767A251BBC8EAD002FB2F7 /* PBXContainerItemProxy */;
+		};
+		CF767A311BBC8EAD002FB2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF767A0F1BBC8EAD002FB2F7 /* CoUP */;
+			targetProxy = CF767A301BBC8EAD002FB2F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF767A171BBC8EAD002FB2F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF767A181BBC8EAD002FB2F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF767A1C1BBC8EAD002FB2F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF767A1D1BBC8EAD002FB2F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF767A361BBC8EAD002FB2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF767A371BBC8EAD002FB2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF767A391BBC8EAD002FB2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoUP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BWG.CoUP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF767A3A1BBC8EAD002FB2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoUP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BWG.CoUP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF767A3C1BBC8EAD002FB2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoUPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BWG.CoUPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoUP.app/CoUP";
+			};
+			name = Debug;
+		};
+		CF767A3D1BBC8EAD002FB2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoUPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BWG.CoUPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoUP.app/CoUP";
+			};
+			name = Release;
+		};
+		CF767A3F1BBC8EAD002FB2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoUPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BWG.CoUPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoUP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF767A401BBC8EAD002FB2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoUPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BWG.CoUPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoUP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF767A0B1BBC8EAD002FB2F7 /* Build configuration list for PBXProject "CoUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF767A361BBC8EAD002FB2F7 /* Debug */,
+				CF767A371BBC8EAD002FB2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF767A381BBC8EAD002FB2F7 /* Build configuration list for PBXNativeTarget "CoUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF767A391BBC8EAD002FB2F7 /* Debug */,
+				CF767A3A1BBC8EAD002FB2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF767A3B1BBC8EAD002FB2F7 /* Build configuration list for PBXNativeTarget "CoUPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF767A3C1BBC8EAD002FB2F7 /* Debug */,
+				CF767A3D1BBC8EAD002FB2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF767A3E1BBC8EAD002FB2F7 /* Build configuration list for PBXNativeTarget "CoUPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF767A3F1BBC8EAD002FB2F7 /* Debug */,
+				CF767A401BBC8EAD002FB2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF767A081BBC8EAD002FB2F7 /* Project object */;
+}

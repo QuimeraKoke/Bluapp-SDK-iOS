@@ -1,0 +1,10 @@
+PODS:
+  - KontaktSDK (5.6)
+
+DEPENDENCIES:
+  - KontaktSDK
+
+SPEC CHECKSUMS:
+  KontaktSDK: e275ece9995c72f78f14cc246e5dc3ed28c906c0
+
+COCOAPODS: 0.37.2

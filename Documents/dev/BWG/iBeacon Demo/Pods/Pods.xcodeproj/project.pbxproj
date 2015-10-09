@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D3E6E6188D760A97BCBF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40A700FEEAB5B920C2B3247 /* Foundation.framework */; };
+		33D431A1E9CBD1197AFD099B /* Pods-iBeacon Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B898776F394C8B2B07B26DD0 /* Pods-iBeacon Demo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0531A56374E38FDC208B90A7 /* KTKCloudBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKCloudBeacon.h; path = KontaktSDK/Headers/KTKCloudBeacon.h; sourceTree = "<group>"; };
+		0613615FA0C2699C6776299D /* KTKVenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKVenue.h; path = KontaktSDK/Headers/KTKVenue.h; sourceTree = "<group>"; };
+		17BD5554521D9CCA486F27A7 /* KTKBeaconManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeaconManager.h; path = KontaktSDK/Headers/KTKBeaconManager.h; sourceTree = "<group>"; };
+		1D97D40D74050567E6562A31 /* KTKVenueBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKVenueBase.h; path = KontaktSDK/Headers/KTKVenueBase.h; sourceTree = "<group>"; };
+		2CDAC3ABACF69E43322670E0 /* KTKStringConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKStringConverter.h; path = KontaktSDK/Headers/KTKStringConverter.h; sourceTree = "<group>"; };
+		2F360EF5E078493AC8378353 /* KTKDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKDescriptor.h; path = KontaktSDK/Headers/KTKDescriptor.h; sourceTree = "<group>"; };
+		32A8EFCC86A772E0C4E8BF39 /* KTKNumberLinearConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKNumberLinearConverter.h; path = KontaktSDK/Headers/KTKNumberLinearConverter.h; sourceTree = "<group>"; };
+		34C81627C0DDA9789B5D1CD3 /* KTKLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKLocationManager.h; path = KontaktSDK/Headers/KTKLocationManager.h; sourceTree = "<group>"; };
+		42A1F0F00924CF088ADA2435 /* KTKUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKUser.h; path = KontaktSDK/Headers/KTKUser.h; sourceTree = "<group>"; };
+		44C5C3E63FDBE91F27266B8B /* KTKRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKRegion.h; path = KontaktSDK/Headers/KTKRegion.h; sourceTree = "<group>"; };
+		48A348D79528F071381B49EC /* KTKServiceDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKServiceDescriptor.h; path = KontaktSDK/Headers/KTKServiceDescriptor.h; sourceTree = "<group>"; };
+		52CA4D658A1A2354EBBE02B5 /* KTKConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKConverter.h; path = KontaktSDK/Headers/KTKConverter.h; sourceTree = "<group>"; };
+		64A5B9DE680CECCCCD5CFE4B /* KTKCompany.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKCompany.h; path = KontaktSDK/Headers/KTKCompany.h; sourceTree = "<group>"; };
+		736C98927DF6478D0AD3266A /* KTKPagingVenues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPagingVenues.h; path = KontaktSDK/Headers/KTKPagingVenues.h; sourceTree = "<group>"; };
+		74C969661A575F3E1E361D58 /* Pods-iBeacon Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBeacon Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7F79B43DA22D6F1F0D56C0D9 /* KTKBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeacon.h; path = KontaktSDK/Headers/KTKBeacon.h; sourceTree = "<group>"; };
+		823E0D0F7E43BAE5A52AD33A /* KTKSubordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKSubordinate.h; path = KontaktSDK/Headers/KTKSubordinate.h; sourceTree = "<group>"; };
+		824BEBD97C4FD756E6D717C6 /* KTKNumberDiscreteConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKNumberDiscreteConverter.h; path = KontaktSDK/Headers/KTKNumberDiscreteConverter.h; sourceTree = "<group>"; };
+		8268CC4D89F153B1A39F4F46 /* KTKClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKClient.h; path = KontaktSDK/Headers/KTKClient.h; sourceTree = "<group>"; };
+		891B6FA32349A0651A0BF006 /* Pods-iBeacon Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iBeacon Demo-resources.sh"; sourceTree = "<group>"; };
+		8A3188AF49E2540010117951 /* KTKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKError.h; path = KontaktSDK/Headers/KTKError.h; sourceTree = "<group>"; };
+		8EFF2CA11E8B7B138437F6BC /* KTKPagingConfigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPagingConfigs.h; path = KontaktSDK/Headers/KTKPagingConfigs.h; sourceTree = "<group>"; };
+		93EED89FF86CF3AE10381CA7 /* KTKPaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPaging.h; path = KontaktSDK/Headers/KTKPaging.h; sourceTree = "<group>"; };
+		952CD21ADA756D0B0EBEE8FD /* KTKUUIDConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKUUIDConverter.h; path = KontaktSDK/Headers/KTKUUIDConverter.h; sourceTree = "<group>"; };
+		9547B3B8B55F319396057A1A /* Pods-iBeacon Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iBeacon Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A13AD13BA1CA06C3629BEF4 /* KTKPagingBeacons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPagingBeacons.h; path = KontaktSDK/Headers/KTKPagingBeacons.h; sourceTree = "<group>"; };
+		9CF50751BA61ABDC4ACCEF21 /* KTKBluetoothManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBluetoothManager.h; path = KontaktSDK/Headers/KTKBluetoothManager.h; sourceTree = "<group>"; };
+		9F1515420AE85E6C4D22D451 /* KTKDataTransferObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKDataTransferObject.h; path = KontaktSDK/Headers/KTKDataTransferObject.h; sourceTree = "<group>"; };
+		9FFFF58BCB30C1C2B8009F47 /* KTKBeaconDeviceV2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeaconDeviceV2.h; path = KontaktSDK/Headers/KTKBeaconDeviceV2.h; sourceTree = "<group>"; };
+		A0338192C5F05D54B24937AB /* libPods-iBeacon Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBeacon Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12E65A03E2A0C80A887115F /* KTKPublicVenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPublicVenue.h; path = KontaktSDK/Headers/KTKPublicVenue.h; sourceTree = "<group>"; };
+		A1736142C9DBA1D4C1EA9AD8 /* KTKActionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKActionManager.h; path = KontaktSDK/Headers/KTKActionManager.h; sourceTree = "<group>"; };
+		A6DF1E83CB5144D2E0085765 /* KTKNumberConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKNumberConverter.h; path = KontaktSDK/Headers/KTKNumberConverter.h; sourceTree = "<group>"; };
+		AB70B895C57B7C4C14E78A26 /* KTKBluetoothDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBluetoothDevice.h; path = KontaktSDK/Headers/KTKBluetoothDevice.h; sourceTree = "<group>"; };
+		AC8194A472382C58711EA0ED /* KTKPagingDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPagingDevices.h; path = KontaktSDK/Headers/KTKPagingDevices.h; sourceTree = "<group>"; };
+		AFB06E3B1E0EC2720ADCACCF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B568CC9A474F098EA9F89A21 /* KTKCharacteristicDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKCharacteristicDescriptor.h; path = KontaktSDK/Headers/KTKCharacteristicDescriptor.h; sourceTree = "<group>"; };
+		B898776F394C8B2B07B26DD0 /* Pods-iBeacon Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iBeacon Demo-dummy.m"; sourceTree = "<group>"; };
+		BD50C127ADF748D78C47CFAA /* Pods-iBeacon Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iBeacon Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDF73A39A2CA5146BAEC3E98 /* KTKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKManager.h; path = KontaktSDK/Headers/KTKManager.h; sourceTree = "<group>"; };
+		C0D7DA5FF303EA627640B863 /* KTKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKDevice.h; path = KontaktSDK/Headers/KTKDevice.h; sourceTree = "<group>"; };
+		C78A68AB0A03C3D5827031E7 /* KTKBeaconDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeaconDevice.h; path = KontaktSDK/Headers/KTKBeaconDevice.h; sourceTree = "<group>"; };
+		C9BC4640CBAF57D60B1D9B45 /* KTKFirmware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKFirmware.h; path = KontaktSDK/Headers/KTKFirmware.h; sourceTree = "<group>"; };
+		CDDDEB54AC157A3E1882A13C /* libkontakt-ios-sdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libkontakt-ios-sdk.a"; path = "KontaktSDK/libkontakt-ios-sdk.a"; sourceTree = "<group>"; };
+		CEFE564119AF19DF7E2C3BED /* KTKHexConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKHexConverter.h; path = KontaktSDK/Headers/KTKHexConverter.h; sourceTree = "<group>"; };
+		DA2BE325FF013FF6E1954CF4 /* KTKPublicBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPublicBeacon.h; path = KontaktSDK/Headers/KTKPublicBeacon.h; sourceTree = "<group>"; };
+		DF15AE4D8CF3B275ED5046AD /* KTKBeaconProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKBeaconProfile.h; path = KontaktSDK/Headers/KTKBeaconProfile.h; sourceTree = "<group>"; };
+		E46E5621AAF23DAC1D3B9C93 /* Pods-iBeacon Demo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iBeacon Demo-environment.h"; sourceTree = "<group>"; };
+		E7C8A9D23107883A1AE9A89D /* KTKAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKAction.h; path = KontaktSDK/Headers/KTKAction.h; sourceTree = "<group>"; };
+		E8A54DC3E59833B14A78C96F /* Pods-iBeacon Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBeacon Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		EC8E407BD4F5BEFC7F32FE53 /* KontaktSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KontaktSDK.h; path = KontaktSDK/Headers/KontaktSDK.h; sourceTree = "<group>"; };
+		F40A700FEEAB5B920C2B3247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FBE5750110579D5E5A92D568 /* KTKPublicAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTKPublicAction.h; path = KontaktSDK/Headers/KTKPublicAction.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5998A23D346DD2E2B7A6BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D3E6E6188D760A97BCBF40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114E8899F7C70B26DEEC3228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0338192C5F05D54B24937AB /* libPods-iBeacon Demo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D99CBF57C28C78396E7DACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				441A7CBA32D6D3FEE66A5B33 /* KontaktSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		355A2AA7359B2521361526EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F40A700FEEAB5B920C2B3247 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3795DA89A69D5DCA8285986E /* Pods-iBeacon Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BD50C127ADF748D78C47CFAA /* Pods-iBeacon Demo-acknowledgements.markdown */,
+				9547B3B8B55F319396057A1A /* Pods-iBeacon Demo-acknowledgements.plist */,
+				B898776F394C8B2B07B26DD0 /* Pods-iBeacon Demo-dummy.m */,
+				E46E5621AAF23DAC1D3B9C93 /* Pods-iBeacon Demo-environment.h */,
+				891B6FA32349A0651A0BF006 /* Pods-iBeacon Demo-resources.sh */,
+				E8A54DC3E59833B14A78C96F /* Pods-iBeacon Demo.debug.xcconfig */,
+				74C969661A575F3E1E361D58 /* Pods-iBeacon Demo.release.xcconfig */,
+			);
+			name = "Pods-iBeacon Demo";
+			path = "Target Support Files/Pods-iBeacon Demo";
+			sourceTree = "<group>";
+		};
+		441A7CBA32D6D3FEE66A5B33 /* KontaktSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E7C8A9D23107883A1AE9A89D /* KTKAction.h */,
+				A1736142C9DBA1D4C1EA9AD8 /* KTKActionManager.h */,
+				7F79B43DA22D6F1F0D56C0D9 /* KTKBeacon.h */,
+				C78A68AB0A03C3D5827031E7 /* KTKBeaconDevice.h */,
+				9FFFF58BCB30C1C2B8009F47 /* KTKBeaconDeviceV2.h */,
+				17BD5554521D9CCA486F27A7 /* KTKBeaconManager.h */,
+				DF15AE4D8CF3B275ED5046AD /* KTKBeaconProfile.h */,
+				AB70B895C57B7C4C14E78A26 /* KTKBluetoothDevice.h */,
+				9CF50751BA61ABDC4ACCEF21 /* KTKBluetoothManager.h */,
+				B568CC9A474F098EA9F89A21 /* KTKCharacteristicDescriptor.h */,
+				8268CC4D89F153B1A39F4F46 /* KTKClient.h */,
+				0531A56374E38FDC208B90A7 /* KTKCloudBeacon.h */,
+				64A5B9DE680CECCCCD5CFE4B /* KTKCompany.h */,
+				52CA4D658A1A2354EBBE02B5 /* KTKConverter.h */,
+				9F1515420AE85E6C4D22D451 /* KTKDataTransferObject.h */,
+				2F360EF5E078493AC8378353 /* KTKDescriptor.h */,
+				C0D7DA5FF303EA627640B863 /* KTKDevice.h */,
+				8A3188AF49E2540010117951 /* KTKError.h */,
+				C9BC4640CBAF57D60B1D9B45 /* KTKFirmware.h */,
+				CEFE564119AF19DF7E2C3BED /* KTKHexConverter.h */,
+				34C81627C0DDA9789B5D1CD3 /* KTKLocationManager.h */,
+				BDF73A39A2CA5146BAEC3E98 /* KTKManager.h */,
+				A6DF1E83CB5144D2E0085765 /* KTKNumberConverter.h */,
+				824BEBD97C4FD756E6D717C6 /* KTKNumberDiscreteConverter.h */,
+				32A8EFCC86A772E0C4E8BF39 /* KTKNumberLinearConverter.h */,
+				93EED89FF86CF3AE10381CA7 /* KTKPaging.h */,
+				9A13AD13BA1CA06C3629BEF4 /* KTKPagingBeacons.h */,
+				8EFF2CA11E8B7B138437F6BC /* KTKPagingConfigs.h */,
+				AC8194A472382C58711EA0ED /* KTKPagingDevices.h */,
+				736C98927DF6478D0AD3266A /* KTKPagingVenues.h */,
+				FBE5750110579D5E5A92D568 /* KTKPublicAction.h */,
+				DA2BE325FF013FF6E1954CF4 /* KTKPublicBeacon.h */,
+				A12E65A03E2A0C80A887115F /* KTKPublicVenue.h */,
+				44C5C3E63FDBE91F27266B8B /* KTKRegion.h */,
+				48A348D79528F071381B49EC /* KTKServiceDescriptor.h */,
+				2CDAC3ABACF69E43322670E0 /* KTKStringConverter.h */,
+				823E0D0F7E43BAE5A52AD33A /* KTKSubordinate.h */,
+				952CD21ADA756D0B0EBEE8FD /* KTKUUIDConverter.h */,
+				42A1F0F00924CF088ADA2435 /* KTKUser.h */,
+				0613615FA0C2699C6776299D /* KTKVenue.h */,
+				1D97D40D74050567E6562A31 /* KTKVenueBase.h */,
+				EC8E407BD4F5BEFC7F32FE53 /* KontaktSDK.h */,
+				CDD8DC3F6BA5C7E42D96B588 /* Frameworks */,
+			);
+			path = KontaktSDK;
+			sourceTree = "<group>";
+		};
+		6AC5E61E30CB695AD9C07F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				355A2AA7359B2521361526EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91D7529B6E9088C23F9C388D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3795DA89A69D5DCA8285986E /* Pods-iBeacon Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CDD8DC3F6BA5C7E42D96B588 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDEB54AC157A3E1882A13C /* libkontakt-ios-sdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF043D14FA1A962BBC112388 = {
+			isa = PBXGroup;
+			children = (
+				AFB06E3B1E0EC2720ADCACCF /* Podfile */,
+				6AC5E61E30CB695AD9C07F34 /* Frameworks */,
+				2D99CBF57C28C78396E7DACC /* Pods */,
+				114E8899F7C70B26DEEC3228 /* Products */,
+				91D7529B6E9088C23F9C388D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A4ADF0245BEB7CEDBC3F0B /* Pods-iBeacon Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC7E93532AC43C7BA41E06B /* Build configuration list for PBXNativeTarget "Pods-iBeacon Demo" */;
+			buildPhases = (
+				05A4D733C7B9712075313621 /* Sources */,
+				E5998A23D346DD2E2B7A6BA8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iBeacon Demo";
+			productName = "Pods-iBeacon Demo";
+			productReference = A0338192C5F05D54B24937AB /* libPods-iBeacon Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04389B52900FFDC1BF076C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = A7BFC782CDC9BD686DAE649C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF043D14FA1A962BBC112388;
+			productRefGroup = 114E8899F7C70B26DEEC3228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A4ADF0245BEB7CEDBC3F0B /* Pods-iBeacon Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A4D733C7B9712075313621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D431A1E9CBD1197AFD099B /* Pods-iBeacon Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		024B1B9E6580ED9A827F8A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C969661A575F3E1E361D58 /* Pods-iBeacon Demo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		67B6C916D95F92F5AFD57453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A54DC3E59833B14A78C96F /* Pods-iBeacon Demo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A2C6F9A3123E223BD6C3DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4A3A50DC1E865716D5669F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC7E93532AC43C7BA41E06B /* Build configuration list for PBXNativeTarget "Pods-iBeacon Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B6C916D95F92F5AFD57453 /* Debug */,
+				024B1B9E6580ED9A827F8A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BFC782CDC9BD686DAE649C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A3A50DC1E865716D5669F6 /* Debug */,
+				A2C6F9A3123E223BD6C3DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04389B52900FFDC1BF076C55 /* Project object */;
+}
